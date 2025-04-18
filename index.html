@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mahammad's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f2f5ff;
+      color: #1c1c1c;
+      padding-top: 70px;
+      padding-bottom: 60px;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #232f3e;
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+
+    header nav a, .main a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    header nav a:hover {
+      color: #ffcb05;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #232f3e;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      z-index: 999;
+    }
+
+    footer a {
+      color: #ffcb05;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+      scroll-margin-top: 60px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #232f3e;
+    }
+
+    h3 {
+        margin-bottom: 5px;
+    }
+
+    p {
+        margin-bottom: 5px;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      text-align: center;
+      padding: 3rem 1rem;
+      border-radius: 12px;
+      margin-top: 10px;
+      margin-bottom: 2rem;
+    }
+
+    .hero img {
+      width: 130px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 4px solid #232f3e;
+    }
+
+    .hero h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .skills, .projects, .education, .certifications {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.06);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .contact-info {
+      text-align: center;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      header nav {
+        margin-top: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="main"><a href="#main"><strong>Mahammad Basha Dudekula</strong></a></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="main">
+    <img src="Profile.jpg" alt="Profile photo">
+    <h1>Hi, I'm Mahammad Basha</h1>
+    <p>Integrated M.Tech student | Web Developer | Problem Solver</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p style="text-align: center;">I'm currently pursuing an Integrated M.Tech in Computer Science and Engineering at VIT-AP, with strong interests in web development, databases, and UI/UX design. I'm enthusiastic about solving real-world problems using code and continuously upgrading my skills through practical projects and learning opportunities.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">HTML5</div>
+      <div class="card">CSS3</div>
+      <div class="card">JavaScript</div>
+      <div class="card">ReactJs</div>
+      <div class="card">PHP & MySQL</div>
+      <div class="card">Git / GitHub</div>
+      <div class="card">Web designing / Figma</div>
+      <div class="card">Java</div>
+      
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Venue Booking System</h3>
+        <p>PHP + MySQL-based web system for booking and managing event spaces with admin and student modules.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education">
+      <div class="card">
+        <h3>VIT-AP University</h3>
+        <p>Integrated M.Tech (CSE-Specialization in Software Engineering), 2022 – 2027</p>
+        <p>Current CGPA: 9.2</p>
+      </div>
+      <div class="card">
+        <h3>Narayana Jr. College</h3>
+        <p>Intermediate (MPC), 2020 – 2022</p>
+        <p>Score: 981/1000</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p><strong><u>Email:</u></strong> dmahammadbasha2004@gmail.com</p>
+      <p><strong><u>Phone:</u></strong> +91 8328625154</p>
+      <p><strong><u>Location:</u></strong> VIT-AP, Amaravati, Andhra Pradesh, India</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Let's connect:
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Mahammad2004" target="_blank">GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>
