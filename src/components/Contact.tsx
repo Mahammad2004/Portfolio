@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub } from 'react
 
 const Contact = () => {
     return (
-        <section id="contact" className="py-20 bg-slate-900 relative overflow-hidden">
+        <section id="contact" className="py-16 bg-slate-900 relative overflow-hidden">
             {/* Background Decorations */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
                 <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-sky-500/10 rounded-full blur-3xl"></div>

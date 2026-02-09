@@ -44,7 +44,7 @@ const Skills = () => {
     ];
 
     return (
-        <section id="skills" className="py-20 bg-slate-900/50 relative">
+        <section id="skills" className="py-16 bg-slate-900/50 relative">
             <div className="absolute top-0 left-0 w-full h-full bg-slate-900/50 -z-10"></div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div

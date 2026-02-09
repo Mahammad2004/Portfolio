@@ -60,7 +60,7 @@ const Experience = () => {
     ];
 
     return (
-        <section id="experience" className="py-20 bg-slate-900/50 relative">
+        <section id="experience" className="py-16 bg-slate-900/50 relative">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

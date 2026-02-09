@@ -38,7 +38,7 @@ const Projects = () => {
     ];
 
     return (
-        <section id="projects" className="py-20 bg-slate-900 relative">
+        <section id="projects" className="py-16 bg-slate-900 relative">
             <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <motion.div
