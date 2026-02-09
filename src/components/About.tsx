@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { FaJava, FaServer, FaLaptopCode, FaBriefcase, FaGraduationCap, FaStar, FaProjectDiagram } from 'react-icons/fa';
-import { SiReact, SiAngular, SiSpringboot } from 'react-icons/si';
+import { FaJava, FaServer, FaBriefcase, FaGraduationCap, FaStar, FaProjectDiagram } from 'react-icons/fa';
+import { SiReact, SiAngular } from 'react-icons/si';
 
 const About = () => {
     const highlights = [
