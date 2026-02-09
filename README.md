@@ -2,8 +2,6 @@
 
 A modern, responsive, and interactive personal portfolio website built to showcase my skills, experience, and projects as a Full Stack Developer.
 
-![Portfolio Preview](src/assets/mypic.jpg) *Note: Replace with a screenshot of your actual portfolio if available.*
-
 ## 🚀 Technologies Used
 
 This project is built using a modern tech stack focused on performance and developer experience:
